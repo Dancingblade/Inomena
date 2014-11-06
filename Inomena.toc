@@ -10,6 +10,5 @@ tweaks.lua
 cvars.lua
 professions.lua
 autoloot.lua
-mail.lua
 filters.lua
 bnet.lua
