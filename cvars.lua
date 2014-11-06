@@ -6,7 +6,7 @@ local cvars = {
 	autoDismountFlying = 1,
 	autoClearAFK = 1,
 	blockTrades = 0,
-	blockChannelInvites = 1,
+	blockChannelInvites = 0,
 	lootUnderMouse = 0,
 	autoLootDefault = 1,
 	autoOpenLootHistory = 0,
@@ -20,9 +20,9 @@ local cvars = {
 	showVKeyCastbar = 1,
 	showVKeyCastbarOnlyOnTarget = 0,
 	showVKeyCastbarSpellName = 1,
-	displaySpellActivationOverlays = 1,
+	displaySpellActivationOverlays = 0,
 	spellActivationOverlayOpacity = 1,
-	reducedLagTolerance = 0,
+	reducedLagTolerance = 1,
 	ActionButtonUseKeyDown = 1,
 	lossOfControl = 1,
 	lossOfControlFull = 2,
@@ -43,7 +43,7 @@ local cvars = {
 	trackQuestSorting = 'proximity',
 
 	-- Social
-	chatBubbles = 1,
+	chatBubbles = 0,
 	chatBubblesParty = 0,
 
 	-- Names
@@ -66,36 +66,36 @@ local cvars = {
 	UnitNameEnemyTotemName = 0,
 
 	-- Floating Combat Text
-	CombatDamage = 1,
-	CombatLogPeriodicSpells = 1,
-	PetMeleeDamage = 1,
-	CombatHealing = 1,
-	CombatHealingAbsorbTarget = 1,
+	CombatDamage = 0,
+	CombatLogPeriodicSpells = 0,
+	PetMeleeDamage = 0,
+	CombatHealing = 0,
+	CombatHealingAbsorbTarget = 0,
 	fctSpellMechanics = 0,
-	CombatDamageStyle = 2,
+	CombatDamageStyle = 0,
 	enableCombatText = 0,
 	showArenaEnemyFrames = 0,
-	enablePetBattleCombatText = 1,
+	enablePetBattleCombatText = 0,
 
 	-- Battle.net
 	showToastOnline = 0,
 	showToastOffline = 0,
 	showToastBroadcast = 0,
-	showToastFriendRequest = 0,
+	showToastFriendRequest = 1,
 	showToastConversation = 0,
-	showToastWindow = 0,
+	showToastWindow = 1,
 	cameraDistanceMaxFactor = 2,
 
 	-- Camera
 	cameraBobbing = 0,
-	cameraWaterCollision = 0,
+	cameraWaterCollision = 1,
 	cameraPivot = 1,
 	cameraDistanceMaxFactor = 4,
 	cameraDistanceMax = 12,
 	cameraSmoothStyle = 0,
 
 	-- Mouse
-	mouseInvertPitch = 0,
+	mouseInvertPitch = 1,
 	cameraYawMoveSpeed = 180,
 	mouseSpeed = 1,
 	autointeract = 0,
@@ -110,10 +110,10 @@ local cvars = {
 
 	-- Sound
 	Sound_EnableAllSound = 1,
-	Sound_EnableSFX = 0,
-	Sound_EnableMusic = 0,
-	Sound_EnableAmbience = 0,
-	Sound_EnableSoundWhenGameIsInBG = 1,
+	Sound_EnableSFX = 1,
+	Sound_EnableMusic = 1,
+	Sound_EnableAmbience = 1,
+	Sound_EnableSoundWhenGameIsInBG = 0,
 	Sound_EnableReverb = 0,
 	Sound_EnableSoftwareHRTF = 0,
 	Sound_EnableDSPEffects = 0,
