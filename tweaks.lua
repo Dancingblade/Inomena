@@ -95,7 +95,5 @@ SlashCmdList.TICKETGM = ToggleHelpFrame
 VehicleSeatIndicator:UnregisterAllEvents()
 VehicleSeatIndicator:Hide()
 
-UIErrorsFrame:UnregisterEvent('UI_ERROR_MESSAGE')
-
 TemporaryEnchantFrame:Hide()
 TemporaryEnchantFrame:UnregisterAllEvents()
